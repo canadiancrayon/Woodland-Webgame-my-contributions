@@ -1,0 +1,13 @@
+/*
+Detects when the user switches to landscape, and formats properly.
+*/
+
+@media (orientation: landscape) {
+    html {
+        margin: auto;
+    }
+    table {
+        width: 50vh;
+        height: 50vh;
+    }
+  }

@@ -1,0 +1,56 @@
+<!--
+Html for leaf page #4
+
+Authors : Jonah Bucci
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Woodland Conservation Area Game</title>
+    <link rel="icon" type="image/x-icon" href="../Images/tree.jpg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./leaf4.css">
+    <script src="./Leaf.js" defer></script>
+</head>
+
+<body class="bg-[url(../Images/space.jpg)] backdrop-blur-sm
+    min-h-screen flex flex-col" onload="setup(6, 'WhiteBirch')">
+
+    <!-- required HTML to introduce sound -->
+    <audio id="buttonClick">
+        <source src=../Sounds/button-305770.mp3>
+    </audio>
+    <audio id="victorySound">
+        <source src=../Sounds/roblox-old-winning-sound-effect.mp3>
+    </audio>
+
+    <header class="bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] 
+    from-green-500 to-black via-green-650 text-white py-4 shadow-lg rounded-b-full">
+        <div id="div_header" class="container mx-auto text-center">
+            <p class="text-xl mt-2">Connect the dots on a Coastal Yellow Birch leaf!</p>
+        </div>
+    </header>
+
+    <main>
+        <img id="leaf" src="..\LeafPages\NewLeafImages\WhiteBirch.png">
+
+        <div id="button0"></div>
+        <div id="button1"></div>
+        <div id="button2"></div>
+        <div id="button3"></div>
+        <div id="button4"></div>
+        <div id="button5"></div>
+    </main>
+    <footer>
+        <button id="back"
+            class="bottom-4 right-4 bg-green-500 text-white px-6 py-2 rounded-lg shadow-md transition-transform duration-300 hover:bg-green-600 ease-in-out hover:scale-125 transition-colors">
+            Play Again
+        </button>
+        <img id="cloudImage" src="..\Images\cloudvflipped.png"></img>
+    </footer>
+</body>
+
+</html>
