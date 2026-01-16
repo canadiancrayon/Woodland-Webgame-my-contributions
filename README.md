@@ -6,6 +6,7 @@ My contributions to the Woodland Conservation Webgame I made with a group of 5 u
 - Jira and Agile framework
 
 ## My contributions
+- Created the HTML pages for each leaf
 - Implemented the system to change the display when the webpage detects the user has swapped to landscape mode in JavaScript
 - Utilized Tailwind CSS to make the webpage pop
 - Collaborated via Jira boards and Agile sprints throughout development
